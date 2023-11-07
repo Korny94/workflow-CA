@@ -16,17 +16,14 @@ We follow specific branching conventions to keep our development process organiz
 Continuous Integration and Deployment
 Automatic Building and Deployment: We've set up a Continuous Integration and Continuous Deployment (CI/CD) pipeline to automatically build and deploy the project when changes are merged into the default branch. Our code is automatically tested, and updates are seamlessly deployed to our web hosting platform.
 
+Automated Testing: The code is automatically tested as part of the CI/CD pipeline, helping catch issues early in the development process.
+
 STATUS BADGES
 
-[![Deploy static content to Pages]
-(https://github.com/Korny94/workflow-CA/actions/workflows/pages.yml/badge.svg)](https://github.com/Korny94/workflow-CA/actions/workflows/pages.yml)
+[![Automated E2E Testing](https://github.com/Korny94/workflow-CA/actions/workflows/e2e-test.yml/badge.svg?branch=workflow)](https://github.com/Korny94/workflow-CA/actions/workflows/e2e-test.yml)
 
-[![Code Review]
-(https://github.com/Korny94/workflow-CA/actions/workflows/gpt.yml/badge.svg)]
-(https://github.com/Korny94/workflow-CA/actions/workflows/gpt.yml)
+[![Automated Unit Testing](https://github.com/Korny94/workflow-CA/actions/workflows/unit-test.yml/badge.svg?branch=workflow)](https://github.com/Korny94/workflow-CA/actions/workflows/unit-test.yml)
 
-[![Automated Unit Testing]
-(https://github.com/Korny94/workflow-CA/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Korny94/workflow-CA/actions/workflows/unit-test.yml)
+[![Code Review](https://github.com/Korny94/workflow-CA/actions/workflows/gpt.yml/badge.svg?branch=workflow)](https://github.com/Korny94/workflow-CA/actions/workflows/gpt.yml)
 
-[![Automated E2E Testing]
-(https://github.com/Korny94/workflow-CA/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/Korny94/workflow-CA/actions/workflows/e2e-test.yml)
+[![Deploy static content to Pages](https://github.com/Korny94/workflow-CA/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/Korny94/workflow-CA/actions/workflows/pages.yml)
